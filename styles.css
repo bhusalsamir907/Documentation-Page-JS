@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    line-height:20px ;
+}
+
+/* NAVBAR */
+#nav-bar{    
+    position: fixed;
+    width: 300px;
+    min-width: 290px;
+    height: 100%;
+    border-right:solid;
+    border-color:rgba(0, 22, 22, 0.4) ;
+    background-color: rgb(221, 214, 217);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#nav-bar header{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+#nav-bar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+  
+    
+}
+
+
+#nav-bar li{
+    
+    padding: 15px 0;
+    margin: 0;
+    border-color:rgba(0, 22, 22, 0.4) ;
+    border-top: 1px solid;
+}
+
+
+
+
+
+
+/* main documentation */
+
+#main-doc{
+margin-left: 310px;
+/* padding: 20px; */
+    
+}
+
+.main-section{
+    padding: 25px;
+}
+
+.main-section p{
+    padding: 30px 0 0px 40px;
+}
+
+
+
+.main-section article{
+    /* margin: 20px; */
+    width: 90%;
+}
+
+.main-section ul li{
+    margin: 20px 0 0 80px;
+
+}
+
+
+
+
+#What-you-should-already-know p{
+
+   /* padding: 20px 0 10px 30px; */
+}
+
+code{
+    display: block;
+    text-align: left;
+    /* white-space: pre-line; */
+    position: relative; 
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 5px;
+
+    /* width: 400px; */
+    margin-left:100px ;
+}
+
